@@ -1,0 +1,339 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height:12vh;
+    background-color: #1a1d23;
+    /* background-color:transparent;
+    transition: background-color 0.3s ease; */
+    position: sticky;
+    top:0;
+    z-index: 999;
+    padding-left: 10%;
+
+}
+/* header.scrolled{
+    background-color: #1a1d23;
+} */
+header img{
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+.dropdown{
+    margin-left:1%;
+    margin-top: 1.5%;
+    
+}
+.nav-text li{
+    margin-left:1%;
+    margin-top:2%;
+}
+.nav-text>li>a{
+    color:white;
+    font-weight: bold;
+}
+.btn button{
+    background-color:transparent;
+    border: none;
+    font-weight: bold;
+
+}
+.icons button{
+    background-color:transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    letter-spacing: -7px;
+}
+.icons button,i,.lang{
+    margin-left:220%;
+}
+.nav-btn{
+    width: 8%;
+    height:7vh;
+    margin-top: 1.5%;
+    margin-left: 9%;
+    background:linear-gradient(to right,#b100ef,red,#d3104d); 
+    color: white;
+    font-weight: bold !important;
+    font-size:17px !important;
+    border: none !important;
+}
+.media-icons{
+    display: flex;
+    position:absolute;
+    top:0px;
+    left: 13%;
+    letter-spacing:15px;
+    font-size:17px;
+}
+
+section{
+    width: 100%;
+    height:100vh;
+    
+    
+}
+section .bg-img{
+    position: absolute;
+    top: 0;
+
+  
+}
+.sec-logo{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    width: 20%;
+}
+.text-1{
+    position:absolute;
+    top: 37%;
+    left: 22%;
+    z-index: 5;
+    color: white;
+    font-weight: bold !important;
+    font-size: 55px !important;
+    letter-spacing: 2px;
+}
+.text-1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+   
+}
+.text-2{
+    position:relative;
+    top: 40%;
+    left: 22%;
+    z-index: 8;
+    color: white;
+    font-size: 22px !important;
+    width: 55%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.img-container{
+    width: 80%;
+    height:auto;
+    /* background-color: rgb(204, 136, 48); */
+    position:relative;
+    top: 50%;
+    left: 10%;
+    z-index: 66;
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    background-color:transparent;
+    border: none;
+   
+      
+}
+.inner-img{
+    width:150px;
+    margin-top: -100%;
+    margin-left: 15%;
+}
+.hov-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.hov-div{
+    width: 100%;
+    height:80%;
+    background-color:#78AB4D;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    position: relative;
+    top: 25%;
+    border: 5px solid #7DC242;
+    border-radius: 20px;
+    z-index: 99;
+    opacity: 0;
+}
+.hov-div2{
+    width: 100%;
+    height:80%;
+    background-color:#F68826;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    position: relative;
+    top: 25%;
+    left: -50px;
+    border: 5px solid #FC5611;
+    border-radius: 20px;
+    z-index: 99;
+    opacity: 0;
+}
+.hov-div3{
+    width: 100%;
+    height:80%;
+    background-color:#E057A2;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    position: relative;
+    top: 25%;
+    left: -110px;
+    border: 5px solid #B100EF;
+    border-radius: 20px;
+    z-index: 99;
+    opacity: 0;
+}
+.hov-div4{
+    width: 100%;
+    height:80%;
+    background-color: #2CA6C1;
+    border: 5px solid #27C9EE;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    position: relative;
+    top: 25%;
+    left: -170px;
+    border-radius: 20px;
+    z-index: 99;
+    opacity:.0;
+}
+.hov-div5{
+    width: 100%;
+    height:80%;
+    background-color:#FFF1EC;
+    border: 5px solid #FFFFFF;
+    padding-left: 20px;
+    padding-top: 50px;
+    position: relative;
+    top: 25%;
+    left: -230px;
+    border-radius: 20px;
+    z-index: 99;
+    opacity: 0;
+}
+.Learn{
+    font-weight: bold;
+}
+.hov-container h3{
+    text-transform: uppercase;
+}
+.hov-div:hover,
+.hov-div2:hover,
+.hov-div3:hover,
+.hov-div4:hover,
+.hov-div5:hover{
+    opacity: 1;
+    transition:.5s ;
+
+}
+footer{
+    width: 100%;
+    height: 50vh;
+   background:radial-gradient(26.87% 116.08% at 67.58% 63.2%,#383f4b 0,#23272f 54.9%,#1a1d23 100%);
+}
+.ftr-container{
+    width: 100%;
+    height: 80%;
+    /* background-color: #27C9EE; */
+    display: flex;
+    justify-content: space-between;
+    padding-top:3%;
+}
+.ftr-content{
+    width: 22%;
+    height: 100%;
+    /* background-color: #8dc59a; */
+}
+.ftr-container img{
+    margin-left: 50%;
+}
+.ftr-content ul{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+    font-size: large;
+}
+.ftr-content ul li:first-child{
+    opacity: .5;
+}
+.ftr-content .media-icons{
+    position: relative;
+    opacity:.5 ;
+}
+.ftr-btn{
+    font-size: large !important;
+    font-weight: bold !important;
+    position: relative;
+    top: 40px !important;
+    /* left: 0px !important; */
+    background-color: transparent !important;
+    border: none !important;
+}
+.popup{
+    position:fixed;
+    top: 47%;
+    right:1.5%;
+    background-color:#d3104d !important;
+    width:5vw;
+    height:10vh;
+    border-radius:18% !important;
+    border: none !important;
+}
+.popup-content{
+   width: 70% !important;
+   height: 100vh!important;
+   position: fixed !important;
+   top:0;
+   left: 15%;
+}
+
+form input,label,textarea{
+    width: 60% !important;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.msg{
+    margin-left: 20%;
+    height: 20vh;
+}
+.pop-hd{
+ 
+    text-transform: uppercase !important;
+    font-weight: bold;
+    font-size: 100px !important;
+}
+.pop-h1{
+    padding-left: 35% !important;
+    border: none !important;
+   
+}
+.pop-h1 h1{
+    font-size: 45px !important;
+    margin-top: 10px;
+}
+.pop-h1 h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.checkbox{
+    margin-left: 21% !important;
+}
+.checkbox label{
+    margin-left: 1%;
+    font-weight: 400;
+}
+.pop-btn{
+    position: relative;
+    left: -25%;
+  border: none !important;
+}
+.pop-btn button{
+    width: 50%;
+}
